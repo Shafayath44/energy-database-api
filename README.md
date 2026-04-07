@@ -30,3 +30,10 @@ pip install -r requirements.txt
 Start the server:
 
 py -m uvicorn main:app --reload
+
+## Run with Docker
+
+Build the image:
+
+```bash
+docker build -t energy-database-api .
